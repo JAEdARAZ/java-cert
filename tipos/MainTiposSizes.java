@@ -37,6 +37,6 @@ public class MainTiposSizes {
         byte bbb = (byte) ll;
         char cc = (char) ll;
         System.out.println("bbb: " + bbb);
-        System.out.println("cc: " + cc); 
+        System.out.println("cc: " + cc);
     }
 }
