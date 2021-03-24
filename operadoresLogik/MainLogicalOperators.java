@@ -38,5 +38,22 @@ public class MainLogicalOperators {
         if(s1.equals(s2)) System.out.println("Comparing the String now, not the references");
 
         if(s2 == s3) System.out.println("Same reference, using the pool now!");
+
+        //equals will always be false if the types are different
+        Integer x = 10;
+        Long y = 10L;
+        if(x.equals(y)){
+            System.out.println("This won't be printed, different types");
+        } else{
+            System.out.println("Different types!!");
+        }
+
+        Integer z1 = 10;
+        int z2 = 10;
+        if(z1.equals(z2)) System.out.println("only works with its wrapper. If z2 was long, it wouldn't work");
+
+        Long l1 = 10L;
+        long l2 = 10;
+        if(l1.equals(l2)) System.out.println("Works too");
     }
 }
