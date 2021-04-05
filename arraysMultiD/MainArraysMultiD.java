@@ -20,6 +20,6 @@ public class MainArraysMultiD {
         //the abbreviate initialization {1,2,3} can't be used for arrays with undetermined positions
         int[][] x = new int[2][];
         x[0] = new int[]{1,2,3};
-        x[1] = {4,5,6}; //compilation error
+        //x[1] = {4,5,6}; //compilation error
     }
 }
