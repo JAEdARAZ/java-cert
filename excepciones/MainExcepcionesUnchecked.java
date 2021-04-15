@@ -1,8 +1,6 @@
-package excepcionesUnchecked;
+package excepciones;
 
-import java.util.Locale;
-
-public class MainExcepciones {
+public class MainExcepcionesUnchecked {
     public static void main(String[] args) {
         int[] anArray = {1,2,3};
         try{
