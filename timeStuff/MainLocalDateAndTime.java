@@ -1,4 +1,4 @@
-package TimeStuff;
+package timeStuff;
 
 import java.time.*;
 
